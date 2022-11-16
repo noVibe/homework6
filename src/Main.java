@@ -28,8 +28,8 @@ public class Main {
         // =====Task 3=====
 
         System.out.println("=====Task 3=====");
-        short year = 2021;
-        if (year % 100 == year % 400 && year % 4 == 0) {
+        short year = 1300;
+        if (year % 400 == 0 || year % 100 != 0 && year % 4 == 0) {
             System.out.println(year + " is a leap year");
         } else {
             System.out.println(year + " is a non-leap year");
