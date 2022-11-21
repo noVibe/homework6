@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bba1c0b-de7c-4ba0-a1ce-2619d645f338" name="Changes" comment="InitialCommit">
+    <list default="true" id="7bba1c0b-de7c-4ba0-a1ce-2619d645f338" name="Changes" comment="Leap year corrections">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -56,7 +56,10 @@
       <workItem from="1668598670484" duration="4767000" />
       <workItem from="1668603593890" duration="927000" />
       <workItem from="1668622213562" duration="158000" />
-      <workItem from="1668624525871" duration="385000" />
+      <workItem from="1668624525871" duration="536000" />
+      <workItem from="1668943025092" duration="1719000" />
+      <workItem from="1669029446126" duration="29000" />
+      <workItem from="1669038853954" duration="3743000" />
     </task>
     <task id="LOCAL-00001" summary="InitialCommit">
       <created>1668602847705</created>
@@ -65,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668602847705</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Leap year corrections">
+      <created>1668624989475</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668624989475</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="InitialCommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="InitialCommit" />
+    <MESSAGE value="Leap year corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leap year corrections" />
   </component>
 </project>

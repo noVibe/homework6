@@ -29,7 +29,7 @@ public class Main {
 
         System.out.println("=====Task 3=====");
         short year = 1300;
-        if (year % 400 == 0 || year % 100 != 0 && year % 4 == 0) {
+        if (year % 400 >= year % 100 && year % 4 == 0) {
             System.out.println(year + " is a leap year");
         } else {
             System.out.println(year + " is a non-leap year");
@@ -70,6 +70,20 @@ public class Main {
             default:
                 System.out.println("This month doesn't exist");
         }
+        //=====Task 6=====
+        System.out.println("=====Task 6=====");
+        int age = 18;
+        int salary = 35000;
+        double salaryIndex = 1;
+        int ageIndex = 0;
+        if (salary >= 50000) {
+            salaryIndex = salary >= 80000 ? 3 : 2;
+        }
+        if (age >= 18) {
+            ageIndex = age < 23 ? 2 : 3;
+        }
+        double credit = salary * salaryIndex * ageIndex;
+        System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + credit + " рублей");
 
     }
 
