@@ -85,6 +85,22 @@ public class Main {
         double credit = salary * salaryIndex * ageIndex;
         System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + credit + " рублей");
 
+        //=====Task 7=====
+        System.out.println("=====Task 7=====");
+
+        int ageOfClient = 26;
+        int salaryOfClient = 60000;
+        double wantedSum = 330000;
+        int maxMonthlyPossiblePayment = salaryOfClient / 2;
+        double creditIndex = salaryOfClient >= 80000 ? 1.093 : 1.1;
+        if (ageOfClient < 30) {
+            creditIndex = ageOfClient > 23 ? 1.105 : 1.11;
+        }
+        double monthlyCreditPayment = wantedSum * creditIndex / 12;
+        boolean isCreditApproved = maxMonthlyPossiblePayment - creditIndex * wantedSum / 12 >= 0 && ageOfClient > 17;
+        String creditDecision = isCreditApproved ? "Одобрено" : "Отказано";
+        System.out.println("Максимальный платеж при ЗП " + salaryOfClient + " составит " + monthlyCreditPayment + " рублей. " + creditDecision);
+
     }
 
 }
